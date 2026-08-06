@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/henry-van-dyke-jr/the-house-of-rimmon</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2026-08-06T20:11:42Z</dc:date>
+		<meta property="dcterms:modified">2026-08-06T20:11:42Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
@@ -46,14 +46,14 @@
 		<meta property="schema:genre">Drama</meta>
 		<meta property="schema:abstract">A Syrian general and a captive maid seek aid from the prophet Elisha.</meta>
 		<dc:description>
-			&lt;p&gt;After being betrayed by his beloved wife, the commander of the Syrian army, Naaman, finds help from a captive maid, Ruahmah. Cursed with leprosy by his god, Naaman is led by Ruahmah to Elisha, a prophet of the god of her people. Along the way, Naaman is confronted with his own commitments to faith, honor, and his nation.&lt;/p&gt;
+			&lt;p&gt;After being betrayed by his beloved wife, the commander of the Syrian army, Naaman, finds help from a captive maid, Ruahmah. Cursed with leprosy by his god, Naaman is led by Ruahmah to Elisha, a prophet of her people’s god. Along the way, Naaman is confronted by his own commitments to faith, honor, and his nation.&lt;/p&gt;
 			&lt;p&gt;In this dramatic adaptation of the story of Naaman and Elisha, &lt;a href="https://standardebooks.org/ebooks/henry-van-dyke-jr"&gt;Henry van Dyke&lt;/a&gt; illuminates a brief but intriguing Biblical narrative, interweaving themes of love, patriotism, and fidelity.&lt;/p&gt;
 		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/17944</dc:source>
 		<dc:source>https://archive.org/details/houseofrim00vandrich</dc:source>
-		<meta property="schema:wordCount">WORD_COUNT</meta>
-		<meta property="schema:educationalLevel">READING_EASE</meta>
+		<meta property="schema:wordCount">13793</meta>
+		<meta property="schema:educationalLevel">83.96</meta>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
 		<link href="https://github.com/standardebooks/henry-van-dyke-jr_the-house-of-rimmon" refines="#vcs-repository" rel="schema:codeRepository"/>
@@ -80,6 +80,11 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">David Reimer</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Reimer, David</meta>
+		<link href="https://github.com/dajare" refines="#producer-2" rel="schema:url"/>
+		<link href="https://id.loc.gov/authorities/names/n92075987.html" refines="#producer-2" rel="schema:sameAs"/>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
